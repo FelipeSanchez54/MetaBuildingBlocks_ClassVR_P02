@@ -1,2 +1,79 @@
-# MetaBuildingBlocks_ClassVR_P02
+# VR ENVIRONMENTS - P02 - META BUILDING BLOCKS
+
+CITM 4º Animación - Entornos VR
+
+## Installation
+
+This app uses Unity version 6000.6.2f1. Built for Meta Quest HMD Devices. Upload .apk file via Side-Quest or cable direct connection.
+
+## Usage
+
+Run the .apk file to install the program and run.
+
+## Contributing
+
+1. Fork it!
+2. Create your feature branch: `git checkout -b my-new-feature`
+3. Commit your changes: `git commit -am 'Add some feature'`
+4. Push to the branch: `git push origin my-new-feature`
+5. Submit a pull request :D
+
+## History
+
+University project to experiment with Meta's SDK Building Blocks for Unity VR.
+
+## Credits
+
+Felipe Sánchez, Marc García, Carla Jiménez, Jordina Quesada.
+
+## License
+
+Project under MIT lisence. You may copy, use, modify and distribute for both personal and professional purposes.
+
+## Additional Information
+
+Descripción de las tres actividades:
+
+1. **(A1)**: Interacción básica y locomoción
+
+  
+2. **(A2)**: Passthrough y Hand-Tracking
+
+
+3. **(A3)**: Feature Adicional: 
+
+### Interaction and Locomotion (A1):
+
+Blahblah - Jordina
+
+
+### Passthrough and Hand-Tracking (A2):
+
+Blahblah - Carla
+
+
+### Additional Feature (A3):  
+
+Blahblah - Marc
+
+## Resumen de desarrollo:
+
+Cada miembro del grupo ha realizado una parte del trabajo (A1, A2 y A3) y la última persona del grupo las ha juntado en una sola escena. 
+
+
+## Problemas y soluciones:
+
+En el caso de la A3, que se especifica en el apartado superior, el problema principal fue detectar cómo poder generar más peces y evitar que se incrustasen todos en paredes y suelo. Gracias al análisis de los samples y de tests con rotaciones, gradientes y atributos del sistema de partículas, entre otros, se conisguió el resulatdo esperado.
+
+
+
+## Contribución de los miembros del grupo:
+
+- **Jordina**: Toda la parte 1 (excepto probar desde el headset) y un poco de documento. Los assets 3D y fotos los he tomado de internet. 
+
+- **Carla**: Parte 2, configurado el modulo de passthrough y añadido el handtracking e interacción con ellos.
+
+- **Marc**: Me he encargado principalmente de desarrollar la A3 y maquetar el documento final. Entre otras de las actividades, he puesto principal atención en la nomenclatura de mis archivos para facilitar el trabajo grupal y la eficiencia; he buscado información sobre la funcionalidad y la he aplicado siguiendo el hilo narrativo del proyecto. He realizado numerosas pruebas con sistemas de partículas y he llevado a cabo diferentes tests que me permitían acotar los resultados y detectar cuales eran los atributos que permitían que funcionase.
+
+- **Felipe**: Me he encargado de juntar todas las funcionalidades en un solo proyecto y he creado el repositorio inicial de GitHub. He formateado el documento de README.md y organizado el proyecto de Unity.
 
