@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 30
-  productGUID: 70ba18e6ac4b266469c86d1bbd7f67c4
+  productGUID: c753366c6da6e8c47b056cde07d6c459
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -17,7 +17,7 @@ PlayerSettings:
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
-  m_ShowUnitySplashScreen: 1
+  m_ShowUnitySplashScreen: 0
   m_ShowUnitySplashLogo: 1
   m_SplashScreenOverlayOpacity: 1
   m_SplashScreenAnimation: 1
@@ -87,7 +87,7 @@ PlayerSettings:
   androidApplicationEntry: 2
   defaultIsNativeResolution: 1
   macRetinaSupport: 1
-  runInBackground: 0
+  runInBackground: 1
   callOnDisableOnAssetBundleUnload: 1
   muteOtherAudioSources: 0
   Prepare IOS For Recording: 0
@@ -775,8 +775,8 @@ PlayerSettings:
   webEnableSubmoduleStrippingCompatibility: 0
   webProgressiveAssetLoading: 0
   scriptingDefineSymbols:
-    Android: OVR_DISABLE_HAND_PINCH_BUTTON_MAPPING
-    Standalone: OVR_DISABLE_HAND_PINCH_BUTTON_MAPPING
+    Android: OVR_DISABLE_HAND_PINCH_BUTTON_MAPPING;USE_INPUT_SYSTEM_POSE_CONTROL;USE_STICK_CONTROL_THUMBSTICKS
+    Standalone: OVR_DISABLE_HAND_PINCH_BUTTON_MAPPING;USE_INPUT_SYSTEM_POSE_CONTROL;USE_STICK_CONTROL_THUMBSTICKS
   additionalCompilerArguments: {}
   platformArchitecture: {}
   scriptingBackend:
@@ -877,10 +877,10 @@ PlayerSettings:
   activeInputHandler: 1
   windowsGamepadBackendHint: 0
   enableDirectStorage: 0
-  cloudProjectId: 079109a2-1512-4755-aa6e-27cde8c06fe2
+  cloudProjectId: e7e3ad3b-72b5-40db-a327-2606d6371672
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: MetaBuildingBlocks_ClassVR_P02
+  projectName: MetaBuildingBlocks_ClassVR_P02 2026-11-10_19-55-40
   organizationId: unity_9792c6e1cdf24cf3cc31
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0

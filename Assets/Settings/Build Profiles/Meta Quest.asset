@@ -1,21 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-6390058519737331747
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 15010, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: Quality Settings
-  m_EditorClassIdentifier: UnityEditor.dll::UnityEditor.Build.Profile.BuildProfileQualitySettings
-  m_DefaultQualityLevel: Meta Quest (Build Profile)
-  m_QualityLevels:
-  - Mobile
-  - Meta Quest (Build Profile)
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33,7 +17,7 @@ MonoBehaviour:
   m_Subtarget: 0
   m_PlatformId: 80657fe557de4d17822398b3a01b8c9e
   m_PlatformBuildProfile:
-    rid: 2044456695887036617
+    rid: 7503656930657435655
   m_ActivePlatformGuid: 
   m_AdditionalPlatformBuildSettings: []
   m_OverrideGlobalSceneList: 0
@@ -45,11 +29,11 @@ MonoBehaviour:
     - line: '| PlayerSettings:'
     - line: '|   m_ObjectHideFlags: 0'
     - line: '|   serializedVersion: 30'
-    - line: '|   productGUID: 70ba18e6ac4b266469c86d1bbd7f67c4'
+    - line: '|   productGUID: c753366c6da6e8c47b056cde07d6c459'
     - line: '|   AndroidProfiler: 0'
     - line: '|   AndroidFilterTouchesWhenObscured: 0'
     - line: '|   AndroidEnableSustainedPerformanceMode: 0'
-    - line: '|   defaultScreenOrientation: 4'
+    - line: '|   defaultScreenOrientation: 3'
     - line: '|   targetDevice: 2'
     - line: '|   useOnDemandResources: 0'
     - line: '|   accelerometerFrequency: 60'
@@ -191,7 +175,8 @@ MonoBehaviour:
     - line: '|   visionOSBundleVersion: 1.0'
     - line: '|   tvOSBundleVersion: 1.0'
     - line: '|   bundleVersion: 0.1.0'
-    - line: '|   preloadedAssets: []'
+    - line: '|   preloadedAssets:'
+    - line: '|   - {fileID: 11400000, guid: 98b6b60d5f67a9043917d0e7d80ce067, type: 2}'
     - line: '|   metroInputSource: 0'
     - line: '|   wsaTransparentSwapchain: 0'
     - line: '|   xboxOneDisableKinectGpuReservation: 1'
@@ -223,7 +208,7 @@ MonoBehaviour:
     - line: '|   AndroidBundleVersionCode: 1'
     - line: '|   AndroidMinSdkVersion: 29'
     - line: '|   AndroidTargetSdkVersion: 32'
-    - line: '|   AndroidPreferredInstallLocation: 1'
+    - line: '|   AndroidPreferredInstallLocation: 0'
     - line: '|   AndroidPreferredDataLocation: 1'
     - line: '|   aotOptions: '
     - line: '|   stripEngineCode: 1'
@@ -976,10 +961,10 @@ MonoBehaviour:
     - line: '|   activeInputHandler: 1'
     - line: '|   windowsGamepadBackendHint: 0'
     - line: '|   enableDirectStorage: 0'
-    - line: '|   cloudProjectId: 079109a2-1512-4755-aa6e-27cde8c06fe2'
+    - line: '|   cloudProjectId: e7e3ad3b-72b5-40db-a327-2606d6371672'
     - line: '|   framebufferDepthMemorylessMode: 0'
     - line: '|   qualitySettingsNames: []'
-    - line: '|   projectName: MetaBuildingBlocks_ClassVR_P02'
+    - line: '|   projectName: MetaBuildingBlocks_ClassVR_P02 2026-11-10_19-55-40'
     - line: '|   organizationId: unity_9792c6e1cdf24cf3cc31'
     - line: '|   cloudEnabled: 0'
     - line: '|   legacyClampBlendShapeWeights: 0'
@@ -998,7 +983,7 @@ MonoBehaviour:
   references:
     version: 2
     RefIds:
-    - rid: 2044456695887036617
+    - rid: 7503656930657435655
       type: {class: AndroidPlatformBuildSettings, ns: UnityEditor.Android, asm: UnityEditor.Android.Extensions}
       data:
         m_Development: 0
@@ -1028,7 +1013,7 @@ MonoBehaviour:
         m_ProfileableShell: 0
         m_IPAddressToConnect: 
         m_SymlinkSources: 0
---- !u!114 &6752933818000977289
+--- !u!114 &3536055625697632220
 MonoBehaviour:
   m_ObjectHideFlags: 3
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1095,3 +1080,19 @@ MonoBehaviour:
     - UNITY_PLATFORM_META_QUEST 1
     numInternalDefines: 1
     compilerSettings: []
+--- !u!114 &7025241602229380595
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 15010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: Quality Settings
+  m_EditorClassIdentifier: UnityEditor.dll::UnityEditor.Build.Profile.BuildProfileQualitySettings
+  m_DefaultQualityLevel: Meta Quest (Build Profile)
+  m_QualityLevels:
+  - Mobile
+  - Meta Quest (Build Profile)
