@@ -44,17 +44,17 @@ Descripción de las tres actividades:
 
 ### Interaction and Locomotion (A1):
 
-Blahblah - Jordina
+Jordina: Añadido building blocks base para locomoverse por la escena e interactuar con objetos
 
 
 ### Passthrough and Hand-Tracking (A2):
 
-Blahblah - Carla
+Carla: Seteado passthrough en skybox y añadido hand tracking & interaction
 
 
 ### Additional Feature (A3):  
 
-Blahblah - Marc
+Marc: Puesto window passthrough en un plane en la escena. Movimiento por teleport y building block de hapticos.
 
 ## Resumen de desarrollo:
 
@@ -73,7 +73,7 @@ En el caso de la A3, que se especifica en el apartado superior, el problema prin
 
 - **Carla**: Parte 2, configurado el modulo de passthrough y añadido el handtracking e interacción con ellos.
 
-- **Marc**: Me he encargado principalmente de desarrollar la A3 y maquetar el documento final. Entre otras de las actividades, he puesto principal atención en la nomenclatura de mis archivos para facilitar el trabajo grupal y la eficiencia; he buscado información sobre la funcionalidad y la he aplicado siguiendo el hilo narrativo del proyecto. He realizado numerosas pruebas con sistemas de partículas y he llevado a cabo diferentes tests que me permitían acotar los resultados y detectar cuales eran los atributos que permitían que funcionase.
+- **Marc**: Parte 3, añadido building blocks para features extras: window passthrough y haptics.
 
-- **Felipe**: Me he encargado de juntar todas las funcionalidades en un solo proyecto y he creado el repositorio inicial de GitHub. He formateado el documento de README.md y organizado el proyecto de Unity.
+- **Felipe**: Me he encargado de juntar todas las funcionalidades en un solo proyecto y he creado el repositorio inicial de GitHub. He formateado el documento de README.md y he hecho lo mejor para certificarme de que el proyecto funcione.
 
