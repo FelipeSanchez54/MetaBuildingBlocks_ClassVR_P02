@@ -76,4 +76,5 @@ En el caso de la A3, que se especifica en el apartado superior, el problema prin
 - **Marc**: Parte 3, añadido building blocks para features extras: window passthrough y haptics.
 
 - **Felipe**: Me he encargado de juntar todas las funcionalidades en un solo proyecto y he creado el repositorio inicial de GitHub. He formateado el documento de README.md y he hecho lo mejor para certificarme de que el proyecto funcione.
+  
 
