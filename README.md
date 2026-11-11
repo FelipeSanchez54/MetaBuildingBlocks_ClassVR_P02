@@ -37,10 +37,10 @@ Descripción de las tres actividades:
 1. **(A1)**: Interacción básica y locomoción
 
   
-2. **(A2)**: Passthrough y Hand-Tracking
+2. **(A2)**: Passthrough y Hand-Tracking 
 
 
-3. **(A3)**: Feature Adicional: 
+3. **(A3)**: Feature Adicional: Window Passthrough y Haptics
 
 ### Interaction and Locomotion (A1):
 
