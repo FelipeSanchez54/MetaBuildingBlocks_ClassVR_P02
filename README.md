@@ -24,7 +24,7 @@ University project to experiment with Meta's SDK Building Blocks for Unity VR.
 
 ## Credits
 
-Felipe Sánchez, Marc García, Carla Jiménez, Jordina Quesada.
+Felipe Sánchez, Marc Garcia, Carla Jiménez, Jordina Quesada.
 
 ## License
 
@@ -44,37 +44,38 @@ Descripción de las tres actividades:
 
 ### Interaction and Locomotion (A1):
 
-Jordina: Añadido building blocks base para locomoverse por la escena e interactuar con objetos
+Añadido building blocks base para locomoverse por la escena e interactuar con objetos
 
 
 ### Passthrough and Hand-Tracking (A2):
 
-Carla: Seteado passthrough en skybox y añadido hand tracking & interaction
+Seteado passthrough en skybox y añadido hand tracking & interaction
 
 
 ### Additional Feature (A3):  
 
-Marc: Puesto window passthrough en un plane en la escena. Movimiento por teleport y building block de hapticos.
+Puesicionamiento de window passthrough en un plane en la escena. Movimiento por teleport y building block de hapticos.
 
 ## Resumen de desarrollo:
 
-Cada miembro del grupo ha realizado una parte del trabajo (A1, A2 y A3) y la última persona del grupo las ha juntado en una sola escena. 
+Cada miembro del grupo ha realizado una parte del trabajo (activities) y la última persona del grupo las ha juntado en una sola escena. El proyecto tiene como objetivo aplicar los diferentes Building Blocks (SDKs) y validar que el funcionamiento de estos en la escena es correcto. Asimismo, se pretende unirlos todos de manera que funcionen de manera simulánea en un solo .apk.
 
 
 ## Problemas y soluciones:
 
-En el caso de la A3, que se especifica en el apartado superior, el problema principal fue detectar cómo poder generar más peces y evitar que se incrustasen todos en paredes y suelo. Gracias al análisis de los samples y de tests con rotaciones, gradientes y atributos del sistema de partículas, entre otros, se conisguió el resulatdo esperado.
+En este proyecto no ha habido un gran número de problemas. Sin embargo, las fases inciales de instalación para poder hacer uso de los Building Blocks, fueron un poco tediosas. Pudimos repasar las presentaciones y conseguir hacerlo funcionar correctamente en nuestar versión de archivo.
 
 
 
 ## Contribución de los miembros del grupo:
 
-- **Jordina**: Toda la parte 1 (excepto probar desde el headset) y un poco de documento. Los assets 3D y fotos los he tomado de internet. 
+**Jordina**: Toda la parte 1 (excepto probar desde el headset). Los assets 3D y fotos son tomados de internet.
 
-- **Carla**: Parte 2, configurado el modulo de passthrough y añadido el handtracking e interacción con ellos.
+**Carla**: Parte 2, configurado el módulo de passthrough y añadido el handtracking e interacción con ellos.
 
-- **Marc**: Parte 3, añadido building blocks para features extras: window passthrough y haptics.
+**Marc**: Parte 3, añadido building blocks para features extras: window passthrough y haptics. Test de los diferentes Building Blocks y redacción de la documentación y adaptación al README.md.
 
-- **Felipe**: Me he encargado de juntar todas las funcionalidades en un solo proyecto y he creado el repositorio inicial de GitHub. He formateado el documento de README.md y he hecho lo mejor para certificarme de que el proyecto funcione.
+**Felipe**: Juntar todas las funcionalidades en un solo proyecto y he creado el repositorio inicial de GitHub. He formateado las bases del documento de README.md y he hecho lo mejor para certificarme de que el proyecto funcione.
+
   
 
